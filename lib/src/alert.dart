@@ -87,8 +87,7 @@ class Alert {
                     children: <Widget>[
                       _getCloseButton(),
                       Padding(
-                        padding: EdgeInsets.fromLTRB(
-                            0, (style.isCloseButton ? 0 : 20), 0, 0),
+                        padding: EdgeInsets.all(0),
                         child: Column(
                           children: <Widget>[
                             _getImage(),
