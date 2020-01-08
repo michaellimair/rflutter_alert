@@ -95,7 +95,7 @@ class Alert {
                               height: 15,
                             ),
                             Text(
-                              "$title fdsafdsa",
+                              title,
                               style: style.titleStyle,
                               textAlign: TextAlign.center,
                             ),
